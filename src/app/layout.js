@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "swiper/css";
 import Footer from "@/components/layouts/Footer";
 import Header from "@/components/layouts/Header";
 

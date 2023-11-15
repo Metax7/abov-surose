@@ -5,7 +5,7 @@ export default function FooterContacts() {
   return (
     <div className="space-y-3">
       <div>
-        <Image src={FooterLogo} />
+        <Image src={FooterLogo} alt="" />
       </div>
       <p className="pr-5 text-[#777]">
         Lorem ipsum dolor sit amet, consect etur adipiscing elit.

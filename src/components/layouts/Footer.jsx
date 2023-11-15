@@ -28,7 +28,7 @@ export default function Footer() {
     <div className="flex max-sm:flex-col text-center max-sm:space-y-2 sm:justify-between">
       <div className="text-[#777]">© 2019. Designed by <b>ThemeMarch</b></div>
       <div className="max-sm:mx-auto">
-        <Image src={FooterPayImg} />
+        <Image src={FooterPayImg} alt=""/>
       </div>
     </div>
   );
