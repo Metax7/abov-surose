@@ -1,5 +1,5 @@
 import Image from "next/image";
-import StandartComponent from "../StandartComponent";
+import StandartContainer from "../StandartContainer";
 import FooterAccount from "./FooterAccount";
 import FooterContacts from "./FooterContacts";
 import FooterNewsletter from "./FooterNewsletter";
@@ -35,9 +35,9 @@ export default function Footer() {
 
   return (
     <>
-      <StandartComponent data={footer} />
+      <StandartContainer data={footer} />
       <div className="w-full border-t">
-        <StandartComponent data={data} />
+        <StandartContainer data={data} />
       </div>
     </>
   );

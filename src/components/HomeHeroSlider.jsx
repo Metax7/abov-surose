@@ -39,16 +39,13 @@ export default function HomeHeroSlider() {
         parallax={true}
         speed={2500}
         modules={[Parallax, Pagination, Autoplay]}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
       >
         {sliderImg.map((item, index) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <div
                 style={{ backgroundImage: `url(${item.image.src})` }}
                 className="relative w-full h-full bg-cover bg-[200%] sm:bg-center py-52 max-sm:after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-[#ffffffb3]"
-                key={index}
               >
                 <div className="relative z-20 max-w-screen-xl mx-auto px-7 sm:px-20 xl:px-0">
                   <div className="w-[600px] overflow-hidden">
