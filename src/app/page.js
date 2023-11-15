@@ -1,6 +1,7 @@
 import HomeFeatureArea from "@/components/HomeFeatureArea";
 import HomeHero from "@/components/HomeHero";
 import HomeHeroSlider from "@/components/HomeHeroSlider";
+import PopularProducts from "@/components/PopularProducts";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <>
       <HomeHero />
       <HomeFeatureArea />
+      <PopularProducts />
     </>
   );
 }
