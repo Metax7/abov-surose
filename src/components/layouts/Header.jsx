@@ -48,7 +48,7 @@ export default function Header() {
         <div className="relative flex flex-wrap items-center justify-between py-5">
           <div className="max-md:order-1">
             <Link href={"/"}>
-              <Image className="max-sm:w-32" src={Logo} />
+              <Image className="max-sm:w-32" src={Logo} alt="" />
             </Link>
           </div>
           <div className="max-md:order-3 w-[500px] max-md:mx-auto max-md:mt-3">
@@ -72,7 +72,7 @@ export default function Header() {
             </form>
           </div>
           <div className="max-md:order-2">
-            <ul className="flex text-xl md:text-2xl space-x-2">
+            <ul className="flex text-xl md:text-2xl space-x-2 md:space-x-5">
               {iconList.map((item, index) => {
                 return (
                   <li
