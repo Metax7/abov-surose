@@ -3,6 +3,11 @@ import ProductImage2 from "@/assets/img/product-image-3.jpg";
 import ProductImage3 from "@/assets/img/product-image-4.jpg";
 import ProductImage4 from "@/assets/img/product-image-6.jpg";
 import ProductImage5 from "@/assets/img/product-image-7.jpg";
+import ProductImage6 from "@/assets/img/product-image-2.jpg";
+import ProductImage7 from "@/assets/img/product-image-11.jpg";
+import ProductImage8 from "@/assets/img/product-image-12.jpg";
+import ProductImage9 from "@/assets/img/product-image-9.jpg";
+import ProductImage10 from "@/assets/img/product-image-10.jpg";
 
 export const ProductsData = [
   {
@@ -24,7 +29,7 @@ export const ProductsData = [
     cost: 29.99,
     sale: false,
     soldOut: true,
-    new: false,
+    new: true,
     popular: true,
     // discount: 20,
     category: "bracelets",
@@ -62,6 +67,66 @@ export const ProductsData = [
     soldOut: false,
     new: true,
     popular: true,
+    // discount: 20,
+    category: "bracelets",
+  },
+  {
+    id: 6,
+    image: ProductImage8,
+    name: "Ankle Bracelet",
+    cost: 29.99,
+    sale: false,
+    soldOut: false,
+    new: true,
+    popular: false,
+    // discount: 20,
+    category: "bracelets",
+  },
+  {
+    id: 7,
+    image: ProductImage6,
+    name: "Ankle Bracelet",
+    cost: 29.99,
+    sale: false,
+    soldOut: false,
+    new: true,
+    popular: false,
+    // discount: 20,
+    category: "bracelets",
+  },
+  {
+    id: 8,
+    image: ProductImage7,
+    name: "Ankle Bracelet",
+    cost: 29.99,
+    sale: false,
+    soldOut: false,
+    new: true,
+    popular: false,
+    // discount: 20,
+    category: "bracelets",
+  },
+  {
+    id: 9,
+    image: ProductImage9,
+    name: "Ankle Bracelet",
+    cost: 29.99,
+    sale: true,
+    soldOut: false,
+    new: true,
+    popular: false,
+    // discount: 20,
+    category: "bracelets",
+  },
+  {
+    id: 10,
+    image: ProductImage10,
+    name: "Ankle Bracelet",
+    cost: 29.99,
+    sale: true,
+    soldOut: false,
+    new: true,
+    popular: false,
     // discount: 20,
     category: "bracelets",
   },

@@ -1,6 +1,7 @@
 import HomeBanners from "@/components/HomeBanners";
 import HomeFeatureArea from "@/components/HomeFeatureArea";
 import HomeHero from "@/components/HomeHero";
+import NewProducts from "@/components/NewProducts";
 import PopularProducts from "@/components/PopularProducts";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <HomeFeatureArea />
       <PopularProducts />
       <HomeBanners />
+      <NewProducts />
     </>
   );
 }
