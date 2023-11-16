@@ -1,3 +1,4 @@
+import BlogSection from "@/components/BlogSection";
 import HomeBanners from "@/components/HomeBanners";
 import HomeFeatureArea from "@/components/HomeFeatureArea";
 import HomeHero from "@/components/HomeHero";
@@ -14,6 +15,7 @@ export default function Home() {
       <HomeBanners />
       <NewProducts />
       <SuperDeal />
+      <BlogSection />
     </>
   );
 }
