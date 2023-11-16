@@ -13,7 +13,7 @@ export const ProductsData = [
   {
     id: 1,
     image: ProductImage1,
-    name: "Ankle Bracelet",
+    name: "Stylist diamond earring",
     cost: 29.99,
     sale: true,
     soldOut: false,
@@ -25,7 +25,7 @@ export const ProductsData = [
   {
     id: 2,
     image: ProductImage2,
-    name: "Ankle Bracelet",
+    name: "Stylist diamond earring",
     cost: 29.99,
     sale: false,
     soldOut: true,
@@ -37,7 +37,7 @@ export const ProductsData = [
   {
     id: 3,
     image: ProductImage3,
-    name: "Ankle Bracelet",
+    name: "Stylist diamond earring",
     cost: 29.99,
     sale: true,
     soldOut: false,
@@ -49,7 +49,7 @@ export const ProductsData = [
   {
     id: 4,
     image: ProductImage4,
-    name: "Ankle Bracelet",
+    name: "Stylist diamond earring",
     cost: 29.99,
     sale: false,
     soldOut: true,
@@ -61,7 +61,7 @@ export const ProductsData = [
   {
     id: 5,
     image: ProductImage5,
-    name: "Ankle Bracelet",
+    name: "Stylist diamond earring",
     cost: 29.99,
     sale: true,
     soldOut: false,
@@ -73,7 +73,7 @@ export const ProductsData = [
   {
     id: 6,
     image: ProductImage8,
-    name: "Ankle Bracelet",
+    name: "Stylist diamond earring",
     cost: 29.99,
     sale: false,
     soldOut: false,
@@ -85,7 +85,7 @@ export const ProductsData = [
   {
     id: 7,
     image: ProductImage6,
-    name: "Ankle Bracelet",
+    name: "Stylist diamond earring",
     cost: 29.99,
     sale: false,
     soldOut: false,
@@ -97,7 +97,7 @@ export const ProductsData = [
   {
     id: 8,
     image: ProductImage7,
-    name: "Ankle Bracelet",
+    name: "Stylist diamond earring",
     cost: 29.99,
     sale: false,
     soldOut: false,
@@ -109,7 +109,7 @@ export const ProductsData = [
   {
     id: 9,
     image: ProductImage9,
-    name: "Ankle Bracelet",
+    name: "Stylist diamond earring",
     cost: 29.99,
     sale: true,
     soldOut: false,
@@ -121,7 +121,7 @@ export const ProductsData = [
   {
     id: 10,
     image: ProductImage10,
-    name: "Ankle Bracelet",
+    name: "Stylist diamond earring",
     cost: 29.99,
     sale: true,
     soldOut: false,
