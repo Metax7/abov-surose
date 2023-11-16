@@ -3,6 +3,7 @@ import BannerImg1 from "@/assets/img/banner-image-1.jpg";
 import BannerImg2 from "@/assets/img/banner-image-2.jpg";
 import BannerImg3 from "@/assets/img/banner-image-3.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomeBanners() {
   const banners = [
@@ -22,9 +23,9 @@ export default function HomeBanners() {
         <div className="flex max-md:flex-col items-center max-xl:gap-5 justify-between">
           {banners.map((item, index) => {
             return (
-              <div key={index}>
+              <Link href={'/'} key={index} className="block relative overflow-hidden banner">
                 <Image src={item.image} width={400} height={400} />
-              </div>
+              </Link>
             );
           })}
         </div>
