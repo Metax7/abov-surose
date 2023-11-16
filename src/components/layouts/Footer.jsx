@@ -23,21 +23,20 @@ export default function Footer() {
       </div>
     </div>
   );
-
-  const data = (
-    <div className="flex max-sm:flex-col text-center max-sm:space-y-2 sm:justify-between">
-      <div className="text-[#777]">© 2019. Designed by <b>ThemeMarch</b></div>
-      <div className="max-sm:mx-auto">
-        <Image src={FooterPayImg} alt=""/>
-      </div>
-    </div>
-  );
-
   return (
     <>
       <StandartContainer data={footer} />
       <div className="w-full border-t">
-        <StandartContainer data={data} />
+        <div className="max-w-screen-xl py-5 mx-auto px-7 sm:px-20 xl:px-0">
+          <div className="flex max-sm:flex-col text-center max-sm:space-y-2 sm:justify-between">
+            <div className="text-[#777]">
+              © 2019. Designed by <b>ThemeMarch</b>
+            </div>
+            <div className="max-sm:mx-auto">
+              <Image src={FooterPayImg} alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
