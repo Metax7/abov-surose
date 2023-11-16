@@ -73,3 +73,52 @@
     opacity: 0;
   }
 }
+
+.banner::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(242, 186, 89, .3);
+  -webkit-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+}
+
+.banner:hover::before {
+  visibility: visible;
+  opacity: 1;
+  -webkit-animation: bannerAnim 1s linear 0s 1 both;
+  animation: bannerAnim 1s linear 0s 1 both;
+}
+
+@keyframes bannerAnim {
+  0% {
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+
+  100% {
+    transform: perspective(400px);
+  }
+}
