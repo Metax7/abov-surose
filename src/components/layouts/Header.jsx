@@ -20,7 +20,7 @@ export default function Header() {
     },
     {
       title: "Shop",
-      link: "/",
+      link: "/shop",
     },
     {
       title: "Pages",
