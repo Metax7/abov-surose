@@ -15,6 +15,9 @@ module.exports = {
         "main-yellow": "#f2ba59",
         "main-gray": "#f7f7f7",
       },
+      backgroundImage: {
+        "hero-bg": "url('/img/breadcrumb-bg.jpg')",
+      },
     },
   },
   plugins: [],
