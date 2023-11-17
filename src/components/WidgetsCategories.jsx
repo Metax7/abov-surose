@@ -18,7 +18,7 @@ export default function WidgetsCategories() {
         {categoriesList.map((item, index) => {
           return (
             <li key={index} className="">
-              <Link href={item.link} className="block font-open font-normal text-[#777] py-3 border-b-2 border-dotted">
+              <Link href={item.link} className="block font-open font-normal text-[#777] py-3 border-b-2 border-dotted hover:text-main-yellow transition-all duration-300">
                 {item.title}
               </Link>
             </li>
