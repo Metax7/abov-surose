@@ -21,7 +21,8 @@ export const ProductsData = [
     new: false,
     popular: true,
     category: "ring",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus.",
   },
   {
     id: 2,
@@ -34,7 +35,8 @@ export const ProductsData = [
     new: true,
     popular: true,
     category: "necklace",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus.",
   },
   {
     id: 3,
@@ -47,7 +49,8 @@ export const ProductsData = [
     new: true,
     popular: true,
     category: "ring",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus.",
   },
   {
     id: 4,
@@ -60,7 +63,8 @@ export const ProductsData = [
     new: false,
     popular: true,
     category: "bracelet",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus.",
   },
   {
     id: 5,
@@ -73,7 +77,8 @@ export const ProductsData = [
     new: true,
     popular: true,
     category: "ring",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus.",
   },
   {
     id: 6,
@@ -86,7 +91,8 @@ export const ProductsData = [
     new: true,
     popular: false,
     category: "ring",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus.",
   },
   {
     id: 7,
@@ -99,7 +105,8 @@ export const ProductsData = [
     new: true,
     popular: false,
     category: "earring",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus.",
   },
   {
     id: 8,
@@ -112,7 +119,8 @@ export const ProductsData = [
     new: true,
     popular: false,
     category: "ring",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus.",
   },
   {
     id: 9,
@@ -125,7 +133,8 @@ export const ProductsData = [
     new: true,
     popular: false,
     category: "ring",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus.",
   },
   {
     id: 10,
@@ -138,6 +147,7 @@ export const ProductsData = [
     new: true,
     popular: false,
     category: "earring",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus.",
   },
 ];

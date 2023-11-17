@@ -46,7 +46,12 @@ export default function ProductPage({ params }) {
       <div className="lg:w-4/5 max-lg:order-1 space-y-10">
         <div className="flex max-md:flex-col max-md:space-y-5 space-x-5">
           <div className="border">
-            <Image className="h-full object-cover" src={product.image} width={1300} height={1000} />
+            <Image
+              className="h-full object-cover"
+              src={product.image}
+              width={1300}
+              height={1000}
+            />
           </div>
           <div className="space-y-5">
             <div>

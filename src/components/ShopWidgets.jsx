@@ -10,6 +10,6 @@ export default function ShopWidgets(props) {
       <WidgetsFilter onFilterUpdate={props.onFilterUpdate} />
       <WidgetsProducts />
       <WidgetsSizes />
-    </div>    
+    </div>
   );
 }
