@@ -13,11 +13,11 @@ export default function ShopSection() {
   };
 
   const data = (
-    <div className="flex space-x-5">
-      <div className="w-1/5">
+    <div className="flex max-lg:flex-col lg:space-x-5">
+      <div className="lg:w-1/5 max-lg:order-2">
         <ShopWidgets onFilterUpdate={updateFilter} />
       </div>
-      <div className="w-4/5">
+      <div className="lg:w-4/5 max-lg:order-1 max-lg:mb-20">
         <ShopProducts filter={filter} />
       </div>
     </div>

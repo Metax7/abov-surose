@@ -1,7 +1,7 @@
 import Link from "next/link";
 import StandartContainer from "./StandartContainer";
 
-export default function HeroImg() {
+export default function HeroImg({ children, params }) {
   const data = (
     <div className="font-mont text-white space-y-5">
       <h2 className="font-bold text-4xl">Products</h2>
@@ -10,7 +10,10 @@ export default function HeroImg() {
           <Link href={"/"}>Home</Link>
         </li>
         <li>/</li>
-        <li>Shop</li>
+        <li>
+          <Link href={`/shop`}>Shop</Link>
+        </li>
+        {children}
       </ul>
     </div>
   );
