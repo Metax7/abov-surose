@@ -20,7 +20,8 @@ export const ProductsData = [
     soldOut: false,
     new: false,
     popular: true,
-    category: "bracelets",
+    category: "ring",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
   },
   {
     id: 2,
@@ -32,7 +33,8 @@ export const ProductsData = [
     soldOut: true,
     new: true,
     popular: true,
-    category: "bracelets",
+    category: "necklace",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
   },
   {
     id: 3,
@@ -44,7 +46,8 @@ export const ProductsData = [
     soldOut: false,
     new: true,
     popular: true,
-    category: "bracelets",
+    category: "ring",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
   },
   {
     id: 4,
@@ -56,7 +59,8 @@ export const ProductsData = [
     soldOut: true,
     new: false,
     popular: true,
-    category: "bracelets",
+    category: "bracelet",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
   },
   {
     id: 5,
@@ -68,7 +72,8 @@ export const ProductsData = [
     soldOut: false,
     new: true,
     popular: true,
-    category: "bracelets",
+    category: "ring",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
   },
   {
     id: 6,
@@ -80,7 +85,8 @@ export const ProductsData = [
     soldOut: false,
     new: true,
     popular: false,
-    category: "bracelets",
+    category: "ring",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
   },
   {
     id: 7,
@@ -92,7 +98,8 @@ export const ProductsData = [
     soldOut: false,
     new: true,
     popular: false,
-    category: "bracelets",
+    category: "earring",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
   },
   {
     id: 8,
@@ -104,7 +111,8 @@ export const ProductsData = [
     soldOut: false,
     new: true,
     popular: false,
-    category: "bracelets",
+    category: "ring",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
   },
   {
     id: 9,
@@ -116,7 +124,8 @@ export const ProductsData = [
     soldOut: false,
     new: true,
     popular: false,
-    category: "bracelets",
+    category: "ring",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
   },
   {
     id: 10,
@@ -128,6 +137,7 @@ export const ProductsData = [
     soldOut: false,
     new: true,
     popular: false,
-    category: "bracelets",
+    category: "earring",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis amet quasi nihil, quaerat doloremque molestiae? Voluptates necessitatibus, voluptatibus fugiat rerum veniam nemo eveniet ex in omnis quisquam sunt delectus."
   },
 ];

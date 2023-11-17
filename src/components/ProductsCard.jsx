@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { AiFillEye, AiFillHeart } from "react-icons/ai";
 
 export default function ProductsCard(props) {
@@ -29,24 +30,24 @@ export default function ProductsCard(props) {
               </div>
             </div>
             <div className="absolute group-hover:bottom-[10px] opacity-0 group-hover:opacity-100 flex text-lg -bottom-[50px] left-[60px] space-x-1 transition-all duration-500">
-              <a
+              <Link
                 className="block text-sm p-3 bg-main-yellow rounded-sm text-white"
                 href="#"
               >
                 Add to cart
-              </a>
-              <a
+              </Link>
+              <Link
                 className="block p-3 bg-main-yellow rounded-sm text-white"
                 href="#"
               >
                 <AiFillHeart />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="block p-3 bg-main-yellow rounded-sm text-white"
-                href="#"
+                href={`shop/${props.slug}`}
               >
                 <AiFillEye />
-              </a>
+              </Link>
             </div>
             <div className="absolute top-[15px] right-[10px]">
               {props.soldOut ? (
@@ -56,18 +57,12 @@ export default function ProductsCard(props) {
               )}
             </div>
           </div>
-          <div className="p-7">
+          <div className="p-5">
             <h4 className="font-prata text-black text-xl">{props.name}</h4>
             <div className="flex items-center justify-between">
               <div className="font-bold text-main-yellow text-lg font-rubik">
                 ${props.cost}
               </div>
-              {/* <a
-                className="text-main-yellow text-xl relative translate-x-3 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-500"
-                href="#"
-              >
-                <AiOutlineArrowRight />
-              </a> */}
             </div>
           </div>
         </div>

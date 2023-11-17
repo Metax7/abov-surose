@@ -4,7 +4,7 @@ import ProductsCard from "./ProductsCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
-export default function ProductsSlider() {
+export default function ProductsSlider({filterCondition, slidesPerView}) {
   return (
     <>
       <div>
@@ -30,13 +30,13 @@ export default function ProductsSlider() {
               spaceBetween: 20,
             },
             1024: {
-              slidesPerView: 4,
+              slidesPerView: slidesPerView,
               spaceBetween: 30,
             },
           }}
           modules={[Autoplay]}
         >
-          {ProductsData.filter((product) => product.popular === true).map(
+          {ProductsData.filter(filterCondition).map(
             (product, index) => (
               <SwiperSlide key={index}>
                 <div>

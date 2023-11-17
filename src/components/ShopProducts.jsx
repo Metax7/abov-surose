@@ -12,7 +12,7 @@ export default function ShopProducts({ filter }) {
   return (
     <>
       <div className="space-y-12">
-        <from className="flex justify-between items-center">
+        <from className="flex max-md:flex-col max-lg:space-y-2 justify-between items-center">
           <p className="text-[#777]">
             Showing {filteredProducts.length} products of {ProductsData.length}
           </p>
@@ -28,7 +28,7 @@ export default function ShopProducts({ filter }) {
             <option value="trending">Trending</option>
           </select>
         </from>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
           {filteredProducts.map((item) => {
             return <ProductsCard key={item.id} {...item} />;
           })}
